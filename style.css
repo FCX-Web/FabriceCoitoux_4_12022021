@@ -1059,10 +1059,9 @@ header h1 {
     margin: 20px 0;
 }
 
-
-/* #what-i-do--opacity {
-    opacity: 0.5;
-} */
+#presentation_a--fontweight {
+    font-weight: bold;
+}
 
 #what-i-do_p1--parameters {
     font-size: 22px;
@@ -1084,6 +1083,7 @@ header h1 {
 
 .cta_h2--margin {
     margin: 0;
+    font-weight: bold;
 }
 
 #cta_a--margin {
@@ -1106,4 +1106,8 @@ header h1 {
 .formulaire_p--marginbottom {
     margin-bottom: 5px;
     margin-left: 50px;
+}
+
+footer li>a {
+    font-weight: bold;
 }
