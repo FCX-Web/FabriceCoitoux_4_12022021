@@ -1059,6 +1059,11 @@ header h1 {
     margin: 20px 0;
 }
 
+
+/* #what-i-do--opacity {
+    opacity: 0.5;
+} */
+
 #what-i-do_p1--parameters {
     font-size: 22px;
 }
@@ -1074,6 +1079,7 @@ header h1 {
 
 .img--size {
     width: 100%;
+    max-width: 550px;
 }
 
 .cta_h2--margin {
@@ -1099,5 +1105,5 @@ header h1 {
 
 .formulaire_p--marginbottom {
     margin-bottom: 5px;
-    text-align: end;
+    margin-left: 50px;
 }
