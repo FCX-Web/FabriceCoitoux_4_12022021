@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -1073,7 +1073,7 @@ header h1 {
 
 #what-i-do_a--parameters {
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .img--size {
@@ -1091,7 +1091,7 @@ header h1 {
 }
 
 #footer_h2--fontsize {
-    font-size: 11px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
@@ -1110,4 +1110,5 @@ header h1 {
 
 footer li>a {
     font-weight: bold;
+    padding: 20px;
 }
