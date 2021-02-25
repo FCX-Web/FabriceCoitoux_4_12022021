@@ -852,13 +852,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -877,8 +877,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -888,8 +888,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -1015,7 +1015,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 20px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1059,6 +1059,10 @@ header h1 {
     line-height: 0;
 }
 
+.navbar-header {
+    margin-bottom: 20px;
+}
+
 .presentation_title--margin {
     margin: 20px 0;
 }
@@ -1085,8 +1089,13 @@ header h1 {
     max-width: 550px;
 }
 
+.services_img--size {
+    width: 90%;
+    max-width: 550px;
+}
+
 .cta_h2--margin {
-    margin: 0;
+    margin: 0 20px;
     font-weight: bold;
 }
 
@@ -1101,11 +1110,7 @@ header h1 {
 }
 
 #footer_social--margin {
-    margin-bottom: 20px;
-}
-
-.footer_ul--margin {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .formulaire_p--marginbottom {
@@ -1117,7 +1122,21 @@ header h1 {
     padding: 10px;
 }
 
+.footer_bloc--marginleft {
+    margin-left: 20px;
+}
+
+.footer_list--marginleft {
+    margin-left: 20px;
+}
+
 footer li>a {
     color: #404040!important;
     padding: 20px;
+}
+
+@media (max-width: 359px) {
+    header h1 {
+        font-size: 12px;
+    }
 }
