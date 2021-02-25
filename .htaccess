@@ -1,1 +1,1 @@
-#RewriteCond %{HTTP_HOST} ^https://www.fcx-web.github.io/la-chouette-agence-web-design-lyon/$ #RewriteRule ^(.*) https://fcx-web.github.io/la-chouette-agence-web-design-lyon/$1 [QSA,L,R=301]
+#RewriteCond %{HTTPS_HOST} ^https://www.fcx-web.github.io/la-chouette-agence-web-design-lyon$ #RewriteRule ^(.*) https://fcx-web.github.io/la-chouette-agence-web-design-lyon/$1 [QSA,L,R=301]
