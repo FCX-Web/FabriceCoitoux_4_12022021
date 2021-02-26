@@ -775,11 +775,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #bd643a;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #ffffff!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
@@ -1134,6 +1134,11 @@ header h1 {
 footer li>a {
     color: #404040!important;
     padding: 20px;
+}
+
+.tc-grey {
+    color: #404040!important;
+    font-weight: bold;
 }
 
 @media (max-width: 359px) {
