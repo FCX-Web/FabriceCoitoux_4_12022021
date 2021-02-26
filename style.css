@@ -779,7 +779,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f0c4af!important;
 }
 
 .btn-atomic-tangerine {
@@ -1124,6 +1124,7 @@ header h1 {
 
 .footer_bloc--marginleft {
     margin-left: 20px;
+    width: 30%;
 }
 
 .footer_list--marginleft {
