@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .navbar {
@@ -1048,27 +1048,37 @@ h4 {
 
 /*ajouts fcx*/
 
-.h1--position {
-    display: flex;
-    flex-direction: column;
-}
-
-header h1 {
-    margin: 0 50px;
-    font-size: 15px;
-    line-height: 0;
-}
-
-.navbar-header {
-    margin-bottom: 20px;
-}
-
-.presentation_title--margin {
+.presentation_h1--margin {
     margin: 20px 0;
+    font-size: 30px
 }
 
 #presentation_a--fontweight {
     font-weight: bold;
+}
+
+#services_p-img1--font {
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#services_p-img2--font {
+    font-size: 18px;
+    font-style: italic;
+    color: #332c2c!important;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#services_p-signature--font {
+    font-size: 14px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #what-i-do_p1--parameters {
@@ -1082,6 +1092,13 @@ header h1 {
 #what-i-do_a--parameters {
     text-align: center;
     font-size: 12px;
+}
+
+#portfolio_h2--font {
+    font-size: 26px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .img--size {
@@ -1141,8 +1158,11 @@ footer li>a {
     font-weight: bold;
 }
 
-@media (max-width: 359px) {
-    header h1 {
-        font-size: 12px;
+@media (max-width: 767px) {
+    #services_p-img1--font,
+    #services_p-img2--font,
+    #portfolio_h2--font,
+    #services_p-signature--font {
+        width: 90%;
     }
 }
